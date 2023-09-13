@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 228, 240);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 0 8px;
+}
+
+/* header  */
+header {
+  background-color: #2874f0;
+  height: 60px;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+header .navbar .icon {
+  display: flex;
+  min-width: 137px;
+  justify-content: flex-end;
+}
+
+header .navbar .icon img {
+  width: 75px;
+}
+
+header .navbar .search-container {
+  display: flex;
+  justify-content: center;
+}
+
+header .navbar .search-container input {
+  height: 40px;
+  width: 350px;
+  font-size: 0.95rem;
+  padding: 12px;
+  color: rgb(179, 179, 179);
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border: none;
+}
+
+header .navbar .search-container button {
+  height: 40px;
+  width: calc(100%-36x);
+  border: none;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: white;
+  padding: 4px 12px 0 8px;
+}
+header .navbar .search-container button svg {
+  height: 25px;
+  width: 25px;
+}
+header .navbar .login button {
+  height: 35px;
+  width: 131px;
+  background-color: white;
+  color: #2874f0;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+header .navbar .Become-seller {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+header .navbar .more {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+header .navbar .more svg {
+  rotate: -90deg;
+}
+header .navbar .cart {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+header .navbar .cart svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* section  */
+.section-1 .section-1-container {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1500px;
+  background-color: white;
+}
+
+.section-1 .section-1-container .section-1-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.section-1 .section-1-container .section-1-item img {
+  height: 70px;
+  width: 70px;
+  margin-top: 6px;
+}
+.section-2 .section-2-container {
+  height: 280px;
+  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 16px;
+  background-position: center;
+}
+.section-3 .section-3-container {
+  height: 122px;
+  margin-top: 8px;
+  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-4-container {
+  height: 362px;
+  margin-top: 8px;
+  height: 362px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-4-offers {
+  width: 230px;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.section-4-offers-viewall {
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-4-offers-viewall button {
+  margin-top: 24px;
+  height: 40px;
+  background-color:  #2874f0;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.section-4-list {
+  height: 100%;
+  width: calc(100% - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+.section-4-item {
+  width: 232px;
+  height: 100%;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-4-item img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.section-4-item-head {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.section-4-item-price {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+.section-4-item-explore {
+  opacity: 0.6;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.section-5-container img{
+  width: 33%;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 16px;
+  background-color: white;
+  height: 55px;
+  font-weight: 500;
+}
+footer img {
+  height: 15px;
+  width: 15px;
+  margin:0 6px
+}
